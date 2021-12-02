@@ -7,9 +7,10 @@
 
 
 ## Reaction Game 
-
+  Now we're going to make a 2 player quick-reaction game, designed to see who has the quickest reflexes!
 ### Setting up the Pi
-
+  For this game you'll need a breadboard, an LED, a 200Ω resistor, two push buttons, some male-to-female jumper wires, and some male-to-male jumper wires.<br>
+  Start by building the circut: connect the first button at the left hand side of your breadboard to the GPIO 14 pin, the second button at the right-hand side of your breadboard to the GPIO 15 pin, the LED's longer leg to the 200Ω resistor which then connects to the GPIO 4 pin of Rasperry Pi, and the second legs on all your components to your breadboard's ground rail. Finally, connect the ground rail to Rasperry Pi's ground pin.
 ### Writing the code
   Now you're going to be using the LED Button functions from the GPIO Zero library, and the time library. Rather than importing the two GPIO Zero functions on two seperate lines, you can save time and space by using a comma symbol (,) to seperate them. This is what your code should look like:<br>
 INSERT PICTURE<br>
@@ -23,7 +24,7 @@ INSERT PICTURE<br>
   rightBTN = Button(15)<br>
   leftBTN = Button(14)<br>
   <kbd><img src=""><br><i>Figure 3.2: Variables you'll need to define.</i></kbd><br>
-  ><font size="1">It depends on the GP# you are connecting the Buttons/LED with on your Raspberry Pi</font><br>
+  >It depends on the GP# you are connecting the Buttons/LED with on your Raspberry Pi<br>
 
   Now add instructions to turn the LED on and off, so you check it's working correctly:<br>
   INSERT PICTURE<br>
