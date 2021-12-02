@@ -16,7 +16,7 @@
 INSERT PICTURE<br>
   from gpiozero import LED, Button<br>
   import time<br>
- <kbd><img src=""><br><i>Figure 3.1: Imports you need.</i></kbd><br>
+ <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/WritingTheCode01.jpg"><br><i>Figure 3.1: Imports you need.</i></kbd><br>
 
   As before you'll need to tell GPIO Zero which pins the two buttons and LED are connected to. Type the Following:<br>
 INSERT PICTURE<br>
