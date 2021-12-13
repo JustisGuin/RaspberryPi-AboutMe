@@ -15,7 +15,7 @@ Front-Side view GPIO locations for Male-Female wires[^4]<br>
 Left Button[^5]<br>
 Right Button[^6]<br>
 A bit difficult to see, LED and 200Ω resistor placement[^7]<br>
-Back-Side view GPIO locations for Male-Female wires[^9]<br>
+Back-Side view GPIO locations for Male-Female wires[^8]<br>
 
 [^2]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi01.JPG"><br><i>Figure 1.2: Full Pi, TopDown.</i></kbd><br>
 [^3]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi02.JPG"><br><i>Figure 1.3: Full Breadboard.</i></kbd><br>
