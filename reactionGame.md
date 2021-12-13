@@ -4,12 +4,11 @@
 ---
 ## Setting up the Pi
 
-  For this game you'll need a breadboard[^1], an LED, a 200Ω resistor, two push buttons, some male-to-female jumper wires, and some male-to-male jumper wires.<br>
+  For this game you'll need a breadboard, an LED, a 200Ω resistor, two push buttons, some male-to-female jumper wires, and some male-to-male jumper wires.<br>
   Start by building the circut: connect the first button at the left hand side of your breadboard to the GPIO 14 pin, the second button at the right-hand side of your breadboard to the GPIO 15 pin, the LED's longer leg to the 200Ω resistor which then connects to the GPIO 4 pin of Rasperry Pi, and the second legs on all your components to your breadboard's ground rail. Finally, connect the ground rail to Rasperry Pi's ground pin.
 
 Your breadboard should look something like this:
-<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi01.jpg"><br><i>Figure 3.1: Imports you need.</i></kbd><br>
-[^1]: <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/WritingTheCode01.jpg"><br><i>Figure 3.1: Imports you need.</i></kbd><br>
+<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi01.JPG"><br><i>Figure 3.1: Imports you need.</i></kbd><br>
 ## Writing the code
 
   Now you're going to be using the LED Button functions from the GPIO Zero library, and the time library. Rather than importing the two GPIO Zero functions on two seperate lines, you can save time and space by using a comma symbol (,) to seperate them. This is what your code should look like:<br>
