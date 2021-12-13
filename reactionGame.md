@@ -25,7 +25,7 @@ Back-Side view GPIO locations for Male-Female wires[^9]<br>
 [^7]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi06.JPG"><br><i>Figure 1.7: A bit difficult to see, LED and 200Ω resistor placement.</i></kbd><br>
 [^8]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi07.JPG"><br><i>Figure 1.8: Back-Side view GPIO locations for Male-Female wires.</i></kbd><br>
 
-[^1]: <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi08.jpg"><br><i>Figure 1.1: Index for all the GPIOs and GMDs.</i></kbd><br>
+[^1]: <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi08.JPG"><br><i>Figure 1.1: Index for all the GPIOs and GMDs.</i></kbd><br>
 ## Writing the code
 
   Now you're going to be using the LED Button functions from the GPIO Zero library, and the time library. Rather than importing the two GPIO Zero functions on two seperate lines, you can save time and space by using a comma symbol (,) to seperate them. This is what your code should look like:<br>
