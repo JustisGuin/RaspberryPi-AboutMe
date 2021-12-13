@@ -45,8 +45,6 @@
   <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/WritingTheCode10.jpg"><br><i>Figure 3.10: Importing _exit.</i></kbd><br>
   
 Then at the end of your function, under the line `print(rightName + " won the game!")`, type the Following:<br>
-  INSERT PICTURE<br>
-  _exit(0)<br>
   <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/WritingTheCode11.jpg"><br><i>Figure 3.11: exit method.</i></kbd><br>
 
   The indentation is important here: `_exit(0)` should be indented lining up with `else:`. This instruction tells Python to stop the program after the first button is pressed, meaning the person who pressed their button second doesn't get any reward for losing!<br>
