@@ -1,4 +1,4 @@
-# Traffic Lights Tutorial
+# Traffic Lights  Setup Tutorial
 
 ## Step 1 Connect Button To Bread Board 
 
