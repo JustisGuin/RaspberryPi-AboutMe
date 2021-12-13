@@ -3,15 +3,29 @@
 ---
 ---
 ## Setting up the Pi
-Idex for all the GPIOs and GMDs[^1]
+Index for all the GPIOs and GMDs[^1]
 
   For this game you'll need a breadboard, an LED, a 200Ω resistor, two push buttons, some male-to-female jumper wires, and some male-to-male jumper wires.<br>
   Start by building the circut: connect the first button at the left hand side of your breadboard to the GPIO 14 pin, the second button at the right-hand side of your breadboard to the GPIO 15 pin, the LED's longer leg to the 200Ω resistor which then connects to the GPIO 4 pin of Rasperry Pi, and the second legs on all your components to your breadboard's ground rail. Finally, connect the ground rail to Rasperry Pi's ground pin.
 
-Your breadboard should look something like this:
-<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi01.JPG"><br><i>Figure 3.1: Imports you need.</i></kbd><br>
+Your breadboard should look something like this:<br>
+Full Pi, TopDown[^2]<br>
+Full Breadboard[^3]<br>
+Front-Side view GPIO locations for Male-Female wires[^4]<br>
+Left Button[^5]<br>
+Right Button[^6]<br>
+A bit difficult to see, LED and 200Ω resistor placement[^7]<br>
+Back-Side view GPIO locations for Male-Female wires[^9]<br>
 
-[^1]: <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi09.jpg"><br><i>Figure 3.1: Imports you need.</i></kbd><br>
+[^2]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi01.JPG"><br><i>Figure 3.1: Full Pi, TopDown.</i></kbd><br>
+[^3]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi02.JPG"><br><i>Figure 3.1: Full Breadboard.</i></kbd><br>
+[^4]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi03.JPG"><br><i>Figure 3.1: Front-Side view GPIO locations for Male-Female wires.</i></kbd><br>
+[^5]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi04.JPG"><br><i>Figure 3.1: Left Button.</i></kbd><br>
+[^6]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi05.JPG"><br><i>Figure 3.1: Right Button.</i></kbd><br>
+[^7]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi06.JPG"><br><i>Figure 3.1: A bit difficult to see, LED and 200Ω resistor placement.</i></kbd><br>
+[^8]:<kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi07.JPG"><br><i>Figure 3.1: Back-Side view GPIO locations for Male-Female wires.</i></kbd><br>
+
+[^1]: <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/SettingUpThePi08.jpg"><br><i>Figure 3.1: Index for all the GPIOs and GMDs.</i></kbd><br>
 ## Writing the code
 
   Now you're going to be using the LED Button functions from the GPIO Zero library, and the time library. Rather than importing the two GPIO Zero functions on two seperate lines, you can save time and space by using a comma symbol (,) to seperate them. This is what your code should look like:<br>
