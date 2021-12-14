@@ -98,16 +98,16 @@
   Now add instructions to turn the LED on and off, so you check it's working correctly:<br>
   <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/Assigning%20the%20buzzer%20and%20such.png"><br><i>Figure 3.3: Light pattern.</i></kbd><br>
       
-   To allow the button to have any purpose. Your going to need to add code for the button to know what to do. You are going add a function named pressed() after you assigned the buzzer,button,led25,led8 and led7. The following should look like this:
+   To allow the button to have any purpose. Your going to need to add code for the button to know what to do. You are going add a function named pressed() after you assigned the buzzer,button,led25,led8 and led7. The following should look like this:<br>
    <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/pressed()%20function.png"><br><i>Figure 3.2: pressed Function.</i></kbd><br>
    
    
    
-   When you run your program and press the button it does nothing. The reason this is because your not telling the lights to do anything when the button is pressed. Your going to add the following to allow your red,yellow and green light to turn on:
+   When you run your program and press the button it does nothing. The reason this is because your not telling the lights to do anything when the button is pressed. Your going to add the following to allow your red,yellow and green light to turn on:<br>
    <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/leds%20on%20and%20off.png"><br><i>Figure 3.3: led on and off.</i></kbd><br>
    
 
-   Your going to run your program and see that nothing is happening still even after you assigned your led's to turn on and off. But your missing one important piece of code. The following code you want to enter is under the led8.off() type the following in:
+   Your going to run your program and see that nothing is happening still even after you assigned your led's to turn on and off. But your missing one important piece of code. The following code you want to enter is under the led8.off() type the following in:<br>
     <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/button.when_pressed.png"><br><i>Figure 3.4: Button.when_pressed /i></kbd><br>
    
    
