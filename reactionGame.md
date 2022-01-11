@@ -60,8 +60,6 @@ Back-Side view GPIO locations for Male-Female wires[^8]<br>
 
   Now run the program, and type your names into the PowerShell area. When you run the program this time, remembering to push your button as fast as you can once the LED goes out. This time you'll notice that the winning player's name is shown instead of the pin number.<br>
   To fix the problem of all button presses being reported as having won, you'll need to add a new function from the system library: <b>exit</b> Under the last <b>import</b> line, type the following:
-  INSERT PICTURE<br>
-  from os import _exit<br>
   <kbd><img src="https://github.com/JustisGuin/RaspberryPi-AboutMe/blob/main/images/WritingTheCode10.jpg"><br><i>Figure 3.10: Importing _exit.</i></kbd><br>
   
 Then at the end of your function, under the line `print(rightName + " won the game!")`, type the Following:<br>
